@@ -64,7 +64,7 @@ export default function Navbar() {
       }`}>
         <div className="p-6 flex flex-col gap-6 font-bold text-slate-600 uppercase tracking-widest text-sm">
           <a href="#plans" onClick={() => setIsOpen(false)}>Insurance Plans</a>
-          <a href="#whyus" onClick={() => setIsOpen(false)}>Why Kavasam</a>
+          
           <a href="#" onClick={() => setIsOpen(false)}>Claims</a>
           <a href="#" onClick={() => setIsOpen(false)}>Renew</a>
           <hr className="border-slate-100" />
