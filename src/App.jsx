@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './scene/HeroScene'; 
 import TrustBar from './components/TrustBar'; 
 import Services from './components/Services'; 
-import WhyUs from './components/WhyUs';
+ 
 import SingleEmployee from './components/SingleEmployee'; // Newly added
 import Footer from './components/Footer';
 
@@ -27,7 +27,7 @@ export default function App() {
         <Services />
 
         {/* 5. Why Us - AI-powered claims & tech-focused benefits */}
-        <WhyUs />
+       
 
         {/* 6. Employee Spotlight - The Innomatrics Professional ID Card */}
         <section className="bg-slate-50 py-10">
