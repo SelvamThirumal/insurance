@@ -36,7 +36,7 @@ export default function Navbar() {
             <a href="#plans" className="hover:text-blue-600 flex items-center gap-1 transition-colors">
               Insurance Plans <ChevronDown size={14} />
             </a>
-            <a href="#whyus" className="hover:text-blue-600 transition-colors">Why Kavasam</a>
+             
             <a href="#" className="hover:text-blue-600 transition-colors">Claims</a>
             <a href="#" className="hover:text-blue-600 transition-colors">Renew</a>
           </div>
