@@ -1,0 +1,33 @@
+/* 1. Tailwind v4 Direct Import */
+@import "tailwindcss";
+
+/* 2. Custom Theme Configuration (v4 style) */
+@theme {
+  --color-primary: #0f172a;      /* Dark Navy */
+  --color-accent: #2563eb;       /* Royal Blue */
+  --color-insurance-gold: #fbbf24;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  
+  /* Custom Animations for 3D feel */
+  --animate-float: float 3s ease-in-out infinite;
+}
+
+/* 3. Global Styles */
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased selection:bg-blue-100;
+    font-family: var(--font-sans);
+  }
+}
+
+/* 4. Custom Keyframes */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+/* 5. Utility Classes */
+.glass-effect {
+  @apply bg-white/70 backdrop-blur-md border border-white/20;
+}
